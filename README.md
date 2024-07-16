@@ -18,7 +18,7 @@
 
 小车控制系统框图如下：
 
-![IMG_256]("https://github.com/dragonundertheworld/module-robot/img/control_system.jpg")
+![IMG_256]("https://github.com/dragonundertheworld/module-robot/blob/main/img/control_system.jpg")
 
 图 1-1小车控制系统框图
 
