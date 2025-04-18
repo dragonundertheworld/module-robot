@@ -34,7 +34,7 @@ This project aims to design and build a robot capable of autonomously navigating
 
 The robot employs a closed-loop control system. A 9-axis sensor provides real-time orientation data (Pitch and Yaw angles). This data is processed by an STM32 microcontroller running a PID control algorithm. The controller outputs signals to the motor drivers to adjust the robot's speed and direction, thereby correcting its orientation and maintaining balance.
 
-![Control System Diagram](https://github.com/dragonundertheworld/module-robot/blob/main/img/control_system.jpg)
+![Control System Diagram](https://github.com/dragonundertheworld/module-robot/blob/main/img/control_system.jpg)\
 *Figure 1: Robot Control System Block Diagram*
 
 ### 2.2 Mechanical Structure
@@ -70,7 +70,7 @@ The robot employs a closed-loop control system. A 9-axis sensor provides real-ti
 
 The core of the balancing and steering control is the Proportional-Integral-Derivative (PID) algorithm. A discrete form of the PID algorithm is used due to the digital nature of the sensor readings and controller.
 
-![PID Formula](https://github.com/dragonundertheworld/module-robot/blob/main/img/PID.jpg)
+![PID Formula](https://github.com/dragonundertheworld/module-robot/blob/main/img/PID.jpg)\
 *Figure 2: Discrete PID Control Formula*
 
 *   **Error Calculation:** `error = current_angle - target_angle`
@@ -123,7 +123,7 @@ The main control task (`StartTaskYawCorrect`) orchestrates the robot's behavior:
 *   Power is supplied by two 18650 batteries, regulated as needed for the microcontroller and servos.
 *   A breadboard and/or breakout boards are used for connections.
 
-![Circuit Diagram Sketch](https://github.com/dragonundertheworld/module-robot/blob/main/img/circuit_design.jpg)
+![Circuit Diagram Sketch](https://github.com/dragonundertheworld/module-robot/blob/main/img/circuit_design.jpg)\
 *Figure 3: Simplified Circuit Connection Diagram*
 
 ## 6. Testing & Results
