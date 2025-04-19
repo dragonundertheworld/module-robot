@@ -1,0 +1,59 @@
+# Keil μVision 临时文件和构建输出
+*.o
+*.obj
+*.d
+*.crf
+*.lst
+*.map
+*.dep
+*.lnp
+*.plg
+*.sct
+*.axf
+*.tra
+*.iex
+*.htm
+*.build_log.htm
+*.dep
+*.i
+*.a
+*.bin
+
+# Hex/Binary 文件 (可选：保留这些文件以便用户下载到硬件)
+# *.hex
+# *.bin
+
+# Keil μVision 项目临时文件
+*.uvgui.*
+*.uvguix.*
+*.uvopt
+*.uvoptx
+JLinkLog.txt
+JLinkSettings.ini
+
+# Listings 和 Objects 目录
+**/Listings/*
+**/Objects/*
+**/DebugConfig/*
+
+# 个人配置文件 (包含用户名)
+*.唐总
+*唐总*
+
+# 备份文件
+*.bak
+*.txt~
+*~
+*.swp
+*.swo
+
+# Windows系统特定的文件
+Thumbs.db
+Desktop.ini
+
+# 个人文档文件可能包含敏感信息，但考虑到项目性质，可能需要保留
+*.docx
+*.pptx
+
+# 其他可能不需要版本控制的扩展文件
+*.log
